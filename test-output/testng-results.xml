@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64574" started-at="2020-07-02T07:01:57Z" finished-at="2020-07-02T07:03:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="64574" started-at="2020-07-02T07:01:57Z" finished-at="2020-07-02T07:03:01Z">
+      <class name="com.test.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="setup" is-config="true" duration-ms="18968" started-at="2020-07-02T12:31:57Z" finished-at="2020-07-02T12:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="verifyHomePageTitleTest" duration-ms="20" started-at="2020-07-02T12:32:16Z" finished-at="2020-07-02T12:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="EndTest" is-config="true" duration-ms="1644" started-at="2020-07-02T12:32:16Z" finished-at="2020-07-02T12:32:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="setup" is-config="true" duration-ms="11941" started-at="2020-07-02T12:32:17Z" finished-at="2020-07-02T12:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageImgTest()[pri:1, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="verifyHomePageImgTest" duration-ms="110" started-at="2020-07-02T12:32:29Z" finished-at="2020-07-02T12:32:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageImgTest -->
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="EndTest" is-config="true" duration-ms="1647" started-at="2020-07-02T12:32:29Z" finished-at="2020-07-02T12:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="setup" is-config="true" duration-ms="13387" started-at="2020-07-02T12:32:31Z" finished-at="2020-07-02T12:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyContactLinkHomePageTest()[pri:2, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="verifyContactLinkHomePageTest" duration-ms="61" started-at="2020-07-02T12:32:44Z" finished-at="2020-07-02T12:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactLinkHomePageTest -->
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="EndTest" is-config="true" duration-ms="1785" started-at="2020-07-02T12:32:45Z" finished-at="2020-07-02T12:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="setup" is-config="true" duration-ms="12996" started-at="2020-07-02T12:32:46Z" finished-at="2020-07-02T12:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifySigninLinkHomePageTest()[pri:3, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="verifySigninLinkHomePageTest" duration-ms="97" started-at="2020-07-02T12:32:59Z" finished-at="2020-07-02T12:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySigninLinkHomePageTest -->
+        <test-method status="PASS" signature="EndTest()[pri:0, instance:com.test.qa.testcases.HomePageTest@2805c96b]" name="EndTest" is-config="true" duration-ms="1861" started-at="2020-07-02T12:32:59Z" finished-at="2020-07-02T12:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndTest -->
+      </class> <!-- com.test.qa.testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
