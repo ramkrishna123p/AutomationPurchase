@@ -8,12 +8,9 @@
     <classes>
       <class name="com.test.qa.testcases.HomePageTest">
         <methods>
-          <include name="verifyHomePageImgTest"/>
           <include name="setup"/>
           <include name="verifyContactLinkHomePageTest"/>
           <include name="EndTest"/>
-          <include name="verifyHomePageTitleTest"/>
-          <include name="verifySigninLinkHomePageTest"/>
         </methods>
       </class> <!-- com.test.qa.testcases.HomePageTest -->
     </classes>
