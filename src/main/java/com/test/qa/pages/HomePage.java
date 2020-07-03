@@ -11,7 +11,7 @@ public class HomePage extends TestBase {
 	@FindBy(xpath="//img[@class='img-responsive']")
 	WebElement homePageImg;
 	
-	@FindBy(xpath="//a[contains(text(),'Contact us')]")
+	@FindBy(xpath="//a[contains(text(),'abc Contact us')]")
 	WebElement contactUsLink;
 	
 	@FindBy(xpath="//a[contains(text(),'Sign in')]")
