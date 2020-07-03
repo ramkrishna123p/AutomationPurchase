@@ -31,19 +31,19 @@ public class HomePageTest extends TestBase{
 	@Test(priority=1)
 	public void verifyHomePageImgTest(){
 		boolean b=hm.verifyImagePresent();
-		Assert.assertTrue(b);
+		Assert.assertEquals(true, b);
 	}
 	
 	@Test(priority=2)
 	public void verifyContactLinkHomePageTest(){
 		boolean t=hm.verifyContactLinkHomePage();
-		Assert.assertTrue(t);
+		Assert.assertEquals(true, t);
 	}
 	
 	@Test(priority=3)
 	public void verifySigninLinkHomePageTest(){
 		boolean p=hm.verifySigninLinkHomePage();
-		Assert.assertTrue(p);
+		Assert.assertEquals(true, p);
 	}
 	
 	@AfterMethod
