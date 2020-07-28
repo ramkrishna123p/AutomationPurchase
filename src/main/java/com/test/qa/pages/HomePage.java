@@ -1,10 +1,15 @@
 package com.test.qa.pages;
 
+import java.io.IOException;
+
+import org.apache.http.util.ExceptionUtils;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.test.qa.base.TestBase;
+import com.test.qa.testutil.Utility;
 
 public class HomePage extends TestBase {
 
@@ -30,8 +35,15 @@ public class HomePage extends TestBase {
 		return driver.getTitle();
 	}
 	
-	public boolean verifyContactLinkHomePage(){
-		return contactUsLink.isDisplayed();
+	public boolean verifyContactLinkHomePage() throws IOException{
+		try{
+			return contactUsLink.isDisplayed();
+		}catch(NoSuchElementException e){
+			Utility.takeScreenshotAtEndOfTest();
+		e.printStackTrace();
+		}
+		return false;
+		
 	}
 	
 	public boolean verifySigninLinkHomePage(){

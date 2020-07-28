@@ -39,7 +39,7 @@ public class TestBase {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"E:/geckodriver-v0.24.0-win64/geckodriver.exe");
 			driver=new ChromeDriver();
 		}else if(browserName.contains("IE")){
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"E:/geckodriver-v0.24.0-win64/geckodriver.exe");
+			System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"E:/geckodriver-v0.24.0-win64/geckodriver.exe");
 			driver=new InternetExplorerDriver();
 		}
 		driver.manage().window().maximize();
