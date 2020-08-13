@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -48,6 +51,12 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(TIMEOUT, TimeUnit.SECONDS);
 	}
 	
-	
+    public static String getScreenshotPath(String testCaseName,WebDriver driver) throws IOException {
+				File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+				String currentDir = System.getProperty("user.dir");
+				String desPath=currentDir + "/screenshots/" + testCaseName + ".png";
+				FileUtils.copyFile(scrFile, new File(desPath));
+				return desPath;
+			}
 
 }

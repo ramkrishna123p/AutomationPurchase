@@ -12,8 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
+
 import com.test.qa.base.TestBase;
 import com.test.qa.pages.HomePage;
 
